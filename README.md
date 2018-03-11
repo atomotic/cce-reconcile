@@ -15,5 +15,5 @@ Usage:
 
 		./load-data.sh
 
-3. Add reconcile source to OpenRefine: `http://localhost:8080/reconcile/solr`
-
+3. Add a reconcile service to OpenRefine: `http://localhost:8080/reconcile/solr`  
+	for better results tweak the [solr query](https://github.com/atomotic/cce-reconcile/blob/master/conciliator.properties#L9)
